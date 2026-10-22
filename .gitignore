@@ -1,0 +1,37 @@
+# Entorno virtual
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets descargados (por ejemplo, con torchvision.datasets)
+data/
+datasets/
+
+# Pesos de modelos y checkpoints (pueden pesar cientos de MB)
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Logs de entrenamiento
+runs/
+lightning_logs/
+wandb/
+
+# Variables de entorno
+.env
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
